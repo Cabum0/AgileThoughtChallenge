@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "gP16SetZ6VqSP6BXrcNEz6wY3v2py4yrXRnSKH7jAmuqh/GNifnDCtKeH0RTky+6A/FuIRMH11DgJcfGQIwnYg==",
+  "success": true,
+  "projectFilePath": "C:\\code\\AgileThoughtTest\\StringListHandlerWeb\\StringListHandlerWeb.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\MaleficusTyrannus\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
