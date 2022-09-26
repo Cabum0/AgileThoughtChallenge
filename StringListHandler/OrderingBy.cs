@@ -24,12 +24,23 @@ namespace StringListHandler
         /// </exception>
         public static IList Position(IList<string> names, IList<int> order)
         {
+            _ = Validation(ref names, ref order);
+
+             IList result = new List<object>();
+
+            foreach (var s in order)
+                result.Add(names[s - 1]);
+
+            return result;
+        }
+
+        public static Tuple<int, int, int> Validation(ref IList<string> names, ref IList<int> order)
+        {
             if (names == null)
                 throw new ArgumentNullException("The string array cannot be null.");
             if (order == null)
                 throw new ArgumentNullException("The order array cannot be null.");
 
-            IList result = new List<object>();
             int Count = names.Count;
             int minvalue = order.Min();
             int maxvalue = order.Max();
@@ -41,10 +52,7 @@ namespace StringListHandler
             if (minvalue <= 0)
                 throw new ArgumentException("The smallest value cannot be equal to or less than zero.");
 
-            foreach (var s in order)
-                result.Add(names[s - 1]);
-
-            return result;
+            return new Tuple<int, int, int>(Count, minvalue, maxvalue);
         }
     }
 }
