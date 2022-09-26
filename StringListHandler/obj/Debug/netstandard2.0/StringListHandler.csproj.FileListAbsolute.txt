@@ -1,5 +1,0 @@
-C:\code\AgileThoughtTest\StringListHandler\obj\Debug\netstandard2.0\StringListHandler.csproj.AssemblyReference.cache
-C:\code\AgileThoughtTest\StringListHandler\obj\Debug\netstandard2.0\StringListHandler.GeneratedMSBuildEditorConfig.editorconfig
-C:\code\AgileThoughtTest\StringListHandler\obj\Debug\netstandard2.0\StringListHandler.AssemblyInfoInputs.cache
-C:\code\AgileThoughtTest\StringListHandler\obj\Debug\netstandard2.0\StringListHandler.AssemblyInfo.cs
-C:\code\AgileThoughtTest\StringListHandler\obj\Debug\netstandard2.0\StringListHandler.csproj.CoreCompileInputs.cache
