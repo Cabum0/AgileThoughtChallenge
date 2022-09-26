@@ -3,13 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32901.215
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AgileThoughtTest", "AgileThoughtTest\AgileThoughtTest.csproj", "{8B05D020-E2F5-4499-9418-3F444ACB494E}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringListHandler", "StringListHandler\StringListHandler.csproj", "{D6224E4F-19DE-4D89-B4C0-1EACF62A6E0C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringListHandler.Test", "StringListHandler.Test\StringListHandler.Test.csproj", "{0CB3639E-B98E-4AF0-A5FC-E76DEC661707}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringListHandler.Test", "StringListHandler.Test\StringListHandler.Test.csproj", "{0CB3639E-B98E-4AF0-A5FC-E76DEC661707}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringListHandlerWeb", "StringListHandlerWeb\StringListHandlerWeb.csproj", "{FABCCCF9-7314-48FE-B5BA-93B69B44D58F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringListHandlerWeb", "StringListHandlerWeb\StringListHandlerWeb.csproj", "{FABCCCF9-7314-48FE-B5BA-93B69B44D58F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +15,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8B05D020-E2F5-4499-9418-3F444ACB494E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8B05D020-E2F5-4499-9418-3F444ACB494E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8B05D020-E2F5-4499-9418-3F444ACB494E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8B05D020-E2F5-4499-9418-3F444ACB494E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D6224E4F-19DE-4D89-B4C0-1EACF62A6E0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D6224E4F-19DE-4D89-B4C0-1EACF62A6E0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D6224E4F-19DE-4D89-B4C0-1EACF62A6E0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
