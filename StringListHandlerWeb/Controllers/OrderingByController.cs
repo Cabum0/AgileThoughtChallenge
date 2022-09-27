@@ -9,13 +9,20 @@ namespace StringListHandlerWeb.Controllers
     [ApiController]
     public class OrderingByController : ControllerBase
     {
+        public OrderingByController()
+        {
+            orderingBy = new OrderingBy();
+        }
+
         [HttpPost]
         public JsonResult Position([FromBody] ListToSort listToSort)
         {
-            IList result = OrderingBy.Position(listToSort.Names, listToSort.Order);
+            IList result = orderingBy.Position(listToSort.Names, listToSort.Order);
 
             return new JsonResult(result);
         }
+
+        private readonly IOrderingBy orderingBy;
 
     }
 }

@@ -5,7 +5,7 @@ using System.Linq;
 
 namespace StringListHandler
 {
-    public class OrderingBy
+    public class OrderingBy : IOrderingBy
     {
         /// <summary>
         /// This method will re-arrange the order of strings within an array
@@ -22,11 +22,11 @@ namespace StringListHandler
         /// Thrown when the string array has fewer elements than the order array or
         /// Thrown when the smallest value cannot be equal to or less than zero
         /// </exception>
-        public static IList Position(IList<string> names, IList<int> order)
+        public IList Position(IList<string> names, IList<int> order)
         {
             _ = Validation(ref names, ref order);
 
-             IList result = new List<object>();
+            IList result = new List<object>();
 
             foreach (var s in order)
                 result.Add(names[s - 1]);
@@ -34,7 +34,7 @@ namespace StringListHandler
             return result;
         }
 
-        public static Tuple<int, int, int> Validation(ref IList<string> names, ref IList<int> order)
+        public Tuple<int, int, int> Validation(ref IList<string> names, ref IList<int> order)
         {
             if (names == null)
                 throw new ArgumentNullException("The string array cannot be null.");
